@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em breve</title>
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             margin: 0;
@@ -14,51 +15,59 @@
             justify-content: center;
             height: 100vh;
             background-color: #121212;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             color: #e0e0e0;
             text-align: center;
         }
 
         .container {
-            max-width: 400px;
+            max-width: 500px;
             padding: 20px;
-            border-radius: 8px;
-            background: #1e1e1e;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
         }
 
         h1 {
-            font-size: 2rem;
-            margin-bottom: 10px;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
         }
 
         p {
-            font-size: 1rem;
-            margin-bottom: 0;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
         }
 
         .footer {
             margin-top: 20px;
-            font-size: 0.9rem;
         }
 
         .footer a {
-            color: #bb86fc;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #bb86fc;
+            color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
         }
 
         .footer a:hover {
-            text-decoration: underline;
+            background-color: #9a67ea;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>Em breve!</h1>
         <p>Estamos trabalhando para montar um ambiente agradável para você! Fique ligado</p>
-    </div>
+    </main>
     <div class="footer">
-        <a href="https://www.instagram.com/meiacritica/" target="_blank">Siga-nos no Instagram</a>
+        <a href="https://www.instagram.com/meiacritica/" target="_blank" rel="noopener noreferrer">Siga-nos no Instagram</a>
+        <a href="https://www.tiktok.com/@meiacritica" target="_blank" rel="noopener noreferrer">Siga-nos no TikTok</a>
     </div>
 </body>
 </html>
